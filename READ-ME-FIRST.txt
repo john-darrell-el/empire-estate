@@ -1,0 +1,9 @@
+EMPIRE OF MOROCCO — WEBSITE ESTATE REPO — TRANSPORT PART (set of 5)
+1) Extract ALL five part zips in one place (each becomes its own folder).
+2) Create one folder: empire-estate
+3) Move in: README.md, MANIFEST-SHA256_2026-10-20.txt, .gitignore,
+   main/, aop/, store/ (from part 1) and tribunal/ (from part 2).
+4) Create folder "dor" inside tribunal/; move every PDF from the
+   part-3, part-4 and part-5 folders into tribunal/dor/.
+5) Delete the leftover part folders and this READ-ME.
+Full guide: GitHub-Estate-Repo_iPad-Setup-Guide_2026-10-20.md
