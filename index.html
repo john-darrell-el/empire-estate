@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Endowed Layer · Empire of Morocco</title>
+<meta name="description" content="The free, endowed layer of the Empire of Morocco Global Trade Ecosystem: instruments of the North Gate free to read, copy, transcribe, and download. No accounts. No tracking. No paywall on the record.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{--paper:#050814;--ink:#d9d2ba;--red:#d9bf82;--gold:#c9a961;--gray:#9a9380;--card:#111a35;--star:#f4f1ea}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:#050814}
+body{margin:0;background:linear-gradient(180deg,var(--paper) 0%,#0b1430 46%,var(--paper) 100%);color:var(--ink);font-family:"EB Garamond",Georgia,"Liberation Serif",serif;line-height:1.62;font-size:19px;overflow-x:clip}
+#sky{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.sky-star{position:absolute;background:var(--star);border-radius:50%;opacity:.25;animation:twinkle 5s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.14}50%{opacity:.85}}
+@media (prefers-reduced-motion:reduce){.sky-star{animation:none;opacity:.4}}
+.wrap{position:relative;z-index:1;max-width:960px;margin:0 auto;padding:0 18px}
+a{color:var(--red)}
+.site-head{position:relative;z-index:1;border-bottom:1px solid rgba(201,169,97,0.28);background:rgba(5,8,20,0.66);backdrop-filter:blur(6px)}
+.seals{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:18px 10px 6px}
+.seals figure{margin:0;text-align:center;width:122px}
+.seals img{width:92px;height:92px;object-fit:cover;border:1px solid var(--gold);border-radius:50%;background:#fff;box-shadow:0 0 18px rgba(201,169,97,0.35)}
+.seals figcaption{font-size:12.5px;color:var(--gray);margin-top:5px;line-height:1.3}
+.seals figcaption b{color:var(--ink);font-size:13px}
+.wordmark{text-align:center;padding:6px 12px 4px}
+.wordmark .empire{font-size:26px;letter-spacing:4px;color:var(--red);font-weight:700}
+.wordmark .tagline{font-size:15.5px;margin-top:2px}
+.wordmark .grant{font-size:14px;color:var(--gray);margin-top:2px}
+.site-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 18px;padding:10px 8px 14px;font-size:16px;position:sticky;top:0;z-index:10;background:rgba(5,8,20,0.88);backdrop-filter:blur(6px)}
+.site-nav a{color:var(--red);text-decoration:none;border-bottom:1px solid transparent;padding:2px 1px}
+.site-nav a:hover{border-bottom-color:var(--gold)}
+.site-nav a[aria-current="page"]{font-weight:700;border-bottom:2px solid var(--red)}
+main{padding:28px 0 44px}
+h1,h2,h3,.card h3,.wordmark .empire{font-family:"Cormorant Garamond",Georgia,serif}
+h1{font-size:30px;color:var(--red);margin:6px 0 4px;letter-spacing:.5px;font-weight:500}
+.lede{font-size:19px}
+h2{color:var(--red);font-size:23px;margin:30px 0 8px;border-bottom:1px solid var(--gold);padding-bottom:4px}
+h3{font-size:18px;margin:20px 0 6px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:18px}
+.card{background:var(--card);border:1px solid var(--gold);border-radius:6px;padding:16px;display:flex;flex-direction:column}
+.card h3{margin:0 0 6px;color:var(--red)}
+.card p{margin:0 0 10px;font-size:16px;flex:1}
+.card .go{font-weight:700;text-decoration:none}
+.notebox{position:relative;z-index:1;background:rgba(201,169,97,0.08);border-left:4px solid var(--gold);padding:12px 14px;margin:16px 0;font-size:16px}
+.hash{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:14px;word-break:break-all;background:#0d1526;padding:8px 10px;border-radius:4px;display:block;margin:6px 0}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.btn{appearance:none;border:1.5px solid var(--red);background:var(--card);color:var(--red);font-weight:700;padding:9px 16px;border-radius:5px;cursor:pointer;font-size:16px;text-decoration:none;display:inline-block;font-family:inherit}
+.btn:hover{background:var(--red);color:#050814}
+.btn.primary{background:var(--red);color:#050814}
+.btn.primary:hover{background:var(--gold);color:#050814}
+article.instrument{position:relative;z-index:1;background:#fff;border:1px solid var(--gold);border-radius:6px;padding:38px 44px;margin-top:22px;font-family:Georgia,"Liberation Serif","Times New Roman",serif;font-size:17px;line-height:1.6;color:#111}
+article.instrument a{color:#8B0000}
+.instrument p{margin:0 0 12px}
+.instrument .keep{white-space:pre-wrap}
+.i-mast-empire{text-align:center;font-size:22px;letter-spacing:3px;color:var(--red);font-weight:700;margin-bottom:2px!important}
+.i-mast-tag{text-align:center;font-size:15.5px;margin-bottom:2px!important}
+.i-mast-grant{text-align:center;font-size:14px;color:#444;margin-bottom:2px!important}
+.i-mast-intl{text-align:center;font-size:13px;letter-spacing:1px;color:#444;margin-bottom:14px!important}
+.i-alama{text-align:center;font-style:italic;color:#333;margin:14px 0!important}
+.i-move{text-align:center;margin-bottom:2px!important}
+.i-legal{text-align:center;font-weight:700;letter-spacing:2px;color:var(--red);margin:18px 0 6px!important;font-size:19px}
+.i-title{text-align:center;font-weight:700;font-size:19px;margin-bottom:0!important}
+.i-subtitle{text-align:center;font-style:italic;margin:4px 0 16px!important}
+.i-note{font-size:15px;color:#333;background:#FBF7EC;border:1px solid #E5D9B8;padding:10px 12px;border-radius:4px}
+.i-sec{font-weight:700;color:var(--red);font-size:18px;margin:22px 0 8px!important}
+.i-subhead{font-weight:700}
+.i-li{margin-left:22px}
+.i-sealbox{text-align:center;border:2px dashed var(--gold);border-radius:6px;padding:18px;margin:18px 0 4px!important;font-weight:700;color:#555}
+.i-sealnote{text-align:center;font-size:14px;color:#666}
+article.doc{position:relative;z-index:1;background:#fff;border:1px solid var(--gold);border-radius:6px;padding:34px 40px;margin-top:20px}
+article.doc h2{margin-top:26px}
+article.doc ol{padding-left:22px}
+.site-foot{position:relative;z-index:1;border-top:1px solid rgba(201,169,97,0.28);background:rgba(5,8,20,0.66);text-align:center;font-size:14px;color:var(--gray);padding:16px 12px 22px;line-height:1.7}
+.site-foot .footnav{margin-top:6px}
+.site-foot .nogate{font-weight:700;color:var(--red)}
+@media print{
+ #sky{display:none}
+ body{background:#fff;color:#111}
+ h1,h2,h3,.lede,.card,.card h3,.notebox,.wordmark .empire,.wordmark .tagline,.wordmark .grant,.hash,strong{color:#111 !important}
+ .card{background:#fff !important;border-color:#B8902E}
+ .notebox{background:#FBF7EC !important}
+ .hash{background:#F1EBDD !important}
+ .site-head,.site-foot,.actions,.no-print{display:none!important}
+ main{padding:0}
+ article.instrument,article.doc{border:none;border-radius:0;padding:0;margin:0;font-size:12pt}
+ a{color:#111;text-decoration:none}
+}
+@media(max-width:640px){
+ article.instrument{padding:24px 18px}
+ article.doc{padding:24px 18px}
+ .wordmark .empire{font-size:21px;letter-spacing:2px}
+}
+
+.fab{position:fixed;right:18px;bottom:18px;z-index:40;display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.fab-btn{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;letter-spacing:.4px;color:#d9bf82;background:rgba(5,8,20,0.92);border:1px solid rgba(201,169,97,0.55);border-radius:999px;padding:10px 18px;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.45)}
+.fab-btn:hover{background:rgba(201,169,97,0.16)}
+.fab-menu[hidden]{display:none}
+.fab-menu{display:flex;flex-direction:column;gap:2px;background:rgba(5,8,20,0.95);border:1px solid rgba(201,169,97,0.4);border-radius:10px;padding:8px;box-shadow:0 8px 28px rgba(0,0,0,.5);max-height:62vh;overflow:auto}
+.fab-menu a{font-family:"Inter",sans-serif;font-size:13.5px;color:#d9d2ba;text-decoration:none;padding:7px 12px;border-radius:6px;white-space:nowrap}
+.fab-menu a:hover{background:rgba(201,169,97,0.14);color:#d9bf82}
+@media print{.fab{display:none !important}}
+</style>
+</head>
+<body id="top">
+<div id="sky" aria-hidden="true"></div>
+<header class="site-head">
+  <div class="seals">
+    <figure><img src="assets/empire-flag.jpeg" alt="Empire Flag"><figcaption><b>Empire Flag</b><br>Eternal Sovereignty</figcaption></figure>
+    <figure><img src="assets/emperors-seal.jpeg" alt="Emperor&#x27;s Seal"><figcaption><b>Emperor&#x27;s Seal</b><br>Sidi Mohammed III · 1786</figcaption></figure>
+    <figure><img src="assets/great-seal-reverse.jpeg" alt="Great Seal (Reverse)"><figcaption><b>Great Seal (Reverse)</b><br>United States · Grantee</figcaption></figure>
+    <figure><img src="assets/celestial-seal.jpeg" alt="Celestial Seal"><figcaption><b>Celestial Seal</b><br>Articles 20–25</figcaption></figure>
+  </div>
+  <div class="wordmark">
+    <div class="empire">EMPIRE OF MOROCCO</div>
+    <div class="tagline">Ab Antiquo • Maghrib Al-Aqṣā • North Gate</div>
+    <div class="grant">1786 Mālikī Sharia Hiba (Sovereign Unilateral Grant) · Recorded at 8 Stat. 484 (1836)</div>
+  </div>
+  <nav class="site-nav" aria-label="Site">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="instruments.html">Instruments</a>
+    <a href="tribunal.html">Chapter 21 Tribunal</a>
+    <a href="interlinear.html">Interlinear of Record</a>
+    <a href="charter.html">Access &amp; Fee Charter</a>
+    <a href="https://store.empireofmoroccotrade.com" rel="noopener">The Store ↗</a>
+  </nav>
+</header>
+<main><div class="wrap">
+
+<h1>The Endowed Layer</h1>
+<p class="lede"><strong>tribunal.empireofmorocco.org</strong> is the free layer of the Empire of Morocco Global Trade Ecosystem, held to the standard of <em>waqf al-kutub</em> — an endowed library — under the Access &amp; Fee Charter, presented for adoption. The instruments of the North Gate are free to every heir of the land: <strong>to read, to copy by hand, to transcribe, and to download</strong>, without account, registration, payment, or permission.</p>
+<p class="lede">Recognition is never sold here. Fees attach only to labor — and labor-services live at <a href="https://store.empireofmoroccotrade.com" rel="noopener">the store</a>, never between you and the record. The standing rule is published in the <a href="charter.html">Access &amp; Fee Charter</a>.</p>
+
+<div class="cards">
+  <div class="card">
+    <h3>Instruments of the North Gate</h3>
+    <p>The Nationality Declaration, Name Correction, Proclamation and Publication — full text of record, execution guidance (including the seal and thumbprint hierarchy), edition identifier, and SHA-256 integrity hash.</p>
+    <a class="go" href="instruments.html">Read the instruments →</a>
+  </div>
+  <div class="card">
+    <h3>Chapter 21 Tribunal</h3>
+    <p>The domestic venue of the Empire of Morocco — Gateway Three answered heir-side: the Chapter 20/21 jurisdiction of record, what 1952 did and did not do, the competency examination and ijāzah, and the library of record.</p>
+    <a class="go" href="tribunal.html">Enter the tribunal →</a>
+  </div>
+  <div class="card">
+    <h3>Access &amp; Fee Charter</h3>
+    <p>The rule of the free layer, presented for adoption: the instruments are free; recognition is never sold; fees attach only to labor; no gate, no registry; integrity of the text by edition and hash.</p>
+    <a class="go" href="charter.html">Read the Charter →</a>
+  </div>
+  <div class="card">
+    <h3>The Architecture of Peace Series</h3>
+    <p>The scholarship of record, built on the endowed sources. The volumes are sold as scholarship at the store — as print books and as paid PDF downloads; free reading is delivered through the endowed reading room (<em>/read</em>) as it is prepared under Charter Clause IV.</p>
+    <a class="go" href="https://store.empireofmoroccotrade.com" rel="noopener">Visit the store ↗</a>
+  </div>
+  <div class="card">
+    <h3>Certification &amp; Services</h3>
+    <p>Formatted exemplars, print &amp; mail, certification, archival registration, and instruction — labor-services at the store. None is required for validity; none may ever be sold as validity.</p>
+    <a class="go" href="https://store.empireofmoroccotrade.com/#services" rel="noopener">Request services ↗</a>
+  </div>
+  <div class="card">
+    <h3>The Endowment — Ikrām al-Wāqif</h3>
+    <p>Honoring the endower. The gift is hiba — gratuitous; the office&#x27;s thanks is thawāb — a store-side courtesy, never record access, never a price. A gift to the endowment keeps the record free for every heir.</p>
+    <a class="go" href="tribunal.html#endowment">Endow the record →</a>
+  </div>
+</div>
+
+<h2 id="nogate">Why there is no gate here</h2>
+<div class="notebox">
+<ol style="margin:0;padding-left:22px">
+  <li><strong>Possession confers nothing.</strong> Execution by a true heir is what perfects the instrument — the text itself is inert in unentitled hands. Lock 3: perfection of status is not contingent on any third party’s act.</li>
+  <li><strong>The public record is the armor.</strong> A text published openly, with its edition identifier and SHA-256 hash, cannot be misrepresented as secret, sold as contraband, or altered without detection.</li>
+  <li><strong>No beneficiary registry is kept.</strong> This office does not build lists of heirs. Verification exists only inside paid certification services, where identity must be established for the certificate itself.</li>
+  <li><strong>The waqf is open by definition.</strong> An endowed library gates no one out of reading.</li>
+</ol>
+</div>
+</div></main>
+<footer class="site-foot">
+  <div>Aboriginal/Indigenous Documents · Northwest Amexem · Non-Domestic, Non-Resident, Non-Subject — Heirs of the Land</div>
+  <div><strong>Consular Economic Attaché:</strong> /yasapa-al (John Darrell-el), MD, MBA · <a href="mailto:acquire@empireofmoroccotrade.com">acquire@empireofmoroccotrade.com</a></div>
+  <div>Sister sites: <a href="https://empireofmoroccotrade.com" rel="noopener">empireofmoroccotrade.com — the Ecosystem</a> · <a href="https://4everpeace.empireofmoroccotrade.com" rel="noopener">4everpeace — the Series</a></div>
+  <div class="footnav"><a href="index.html">Home</a> · <a href="instruments.html">Instruments</a> · <a href="tribunal.html">Chapter 21 Tribunal</a> · <a href="interlinear.html">Interlinear of Record</a> · <a href="charter.html">Access &amp; Fee Charter</a> · <a href="#top">Back to top ↑</a></div>
+  <div class="nogate">No accounts. No tracking. No paywall on the record.</div>
+</footer>
+<script>
+(function(){
+  var sky=document.getElementById('sky');if(!sky)return;
+  var n=140,w=window.innerWidth,h=window.innerHeight;
+  for(var i=0;i<n;i++){
+    var s=document.createElement('span');s.className='sky-star';
+    var sz=(Math.random()*2+0.6).toFixed(1);
+    s.style.width=sz+'px';s.style.height=sz+'px';
+    s.style.left=(Math.random()*100).toFixed(2)+'%';
+    s.style.top=(Math.random()*100).toFixed(2)+'%';
+    s.style.animationDelay=(Math.random()*5).toFixed(2)+'s';
+    s.style.animationDuration=(Math.random()*4+3).toFixed(2)+'s';
+    sky.appendChild(s);
+  }
+})();
+</script>
+<nav class="fab" aria-label="Quick navigation">
+  <div class="fab-menu" id="fabMenu" hidden>
+    <a href="#nogate">Why there is no gate here</a>
+    <a href="#top">Back to top ↑</a>
+  </div>
+  <button type="button" class="fab-btn" id="fabBtn" aria-expanded="false" aria-controls="fabMenu">Navigate ↥</button>
+</nav>
+<script>
+(function(){var b=document.getElementById('fabBtn'),m=document.getElementById('fabMenu');if(!b||!m)return;function close(){m.hidden=true;b.setAttribute('aria-expanded','false')}b.addEventListener('click',function(){var willOpen=m.hidden;m.hidden=!willOpen;b.setAttribute('aria-expanded',String(willOpen))});document.addEventListener('keydown',function(e){if(e.key==='Escape')close()});document.addEventListener('click',function(e){if(!m.hidden&&!e.target.closest('.fab'))close()});m.addEventListener('click',function(e){if(e.target.closest('a'))close()});})();
+</script>
+</body>
+</html>

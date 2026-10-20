@@ -1,0 +1,11 @@
+MANIFEST — tribunal-site delta, nationality re-issue 2026-09-28
+Deploy: upload all files to the site ROOT (no subdirectories in this package).
+Verify: sha256sum -c MANIFEST-DELTA_nationality-2026-09-28-sha256.txt
+
+2a20b1be5a6e815ae32d4be17913017a366324ea2ba21195b5618097baec9c99  instruments.html
+49be6e15fcd503617dce4f39272c10d736b68cd5286cab47459402e96f03be6f  tribunal.html
+2c92bfc98bef1144c187568654045f0771bf4ebaa4c617fb0fbc1874833613b4  Nationality-Declaration-TEMPLATE-HARMONIZED-2026-09-28.txt
+b5875c61328c5e2b4b9c2ffcfd4acf6294f53618890238bdadfc60df1739ff70  Nationality-Declaration-TEMPLATE-HARMONIZED-2026-09-28.docx
+21f70f09188fe734c62329f573a8d291de2474dc784c81618e6d53b9af2840cd  Nationality-Declaration-TEMPLATE-HARMONIZED-2026-09-28.pdf
+ee1bd94a01527f208daa6fbaf60a4866464dd5855919343b25e04d3689117669  NATIONALITY-PACKET-2026-09-28.pdf
+21033f6f836abefe4e23c22af16f604639952e9a5c7a007de933c4155ad7cf22  Nationality-Declaration_Reissue_2026-09-28_Errata_and_Certificate.md
