@@ -1,0 +1,6 @@
+GITHUB UPDATE 2026-10-23 — consolidated tribunal update. This pack SUPERSEDES GITHUB-UPDATE_footer-fixes_2026-10-22b.zip — use this one only. If 10-22b was never pushed, this pack alone brings the repo current (it already carries the footer fixes).
+1) Replace the 5 HTML files inside tribunal/ with the ones in this zip. (tribunal.html: Prologue section "The venue within the grant" added as the first section; Section VIII sijill register entries completed — Wave A supplemental record GRANT-DEFAULT-CBP-SUPPLEMENTAL-RECORD-v1.0 named; the four Chapter 21 commissions named by instrument number (CH21-QADI / CH21-CONSUL / CH21-MUHTASIB / CH21-MAZALIM -2026-001); counter-office designation removed from the Wave A entry. All 5 pages: footer fix carried from 10-22b.)
+2) Add the new folder tribunal/restricted/ with the index.html from this zip (the inspection-on-request layer gate page).
+3) Replace store/index.html with the one in this zip (footer fix, carried unchanged from 10-22b).
+4) At the repo root: delete MANIFEST-SHA256_2026-10-22b.txt (and any older MANIFEST-SHA256_*); add MANIFEST-SHA256_2026-10-23.txt from this zip.
+5) Nothing else changed. Repo total becomes 145 files (144 + tribunal/restricted/index.html). Commit as 'Tribunal prologue + sijill register + restricted layer 2026-10-23'.
